@@ -1,0 +1,25 @@
+
+# Archivos de estado
+*.tfstate
+*.tfstate.*
+
+# Directorio de proveedores
+.terraform/
+
+# Planes de Terraform
+*.tfplan
+tfplan
+
+# Archivos de errores
+crash.log
+crash.*.log
+
+# Variables locales y sensibles
+*.tfvars.local
+*.tfvars.json
+*.auto.tfvars
+!terraform.tfvars
+
+# Configuraciones locales
+.terraformrc
+terraform.rc
